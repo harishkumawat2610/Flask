@@ -8,8 +8,8 @@ $ pip install flask
 ```sh
 $ pip install flask-sqlalchemy
 ```
-<!--
-# 1.install flask-mail
+
+# 3.install flask-mail
 ```sh
 $ pip install flask-mail
-``` -->
+``` 
