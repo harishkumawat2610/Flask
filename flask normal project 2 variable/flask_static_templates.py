@@ -3,10 +3,12 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return render_template("index.html")
+    name = "Harish kumawat bro"
+    return render_template("index.html",name=name)
 
 @app.route("/about")
 def about():
-    return render_template("about.html")
+    out = "Computer Science engineer"
+    return render_template("about.html",work=out)
 
 app.run(debug=True)
